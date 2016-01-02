@@ -2,7 +2,7 @@
 - hosts: web
 
   vars:
-   - docroot: /var/www/serversforhackers.com/public
+   - docroot: /var/www/dokku.me/public
 
   tasks:
    - name: Add Nginx Repository
