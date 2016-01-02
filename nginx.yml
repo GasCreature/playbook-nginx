@@ -4,6 +4,8 @@
   vars:
    - docroot: /var/www/dokku.me/public
 
+  remote_user: root
+
   tasks:
    - name: Add Nginx Repository
      apt_repository: repo='ppa:nginx/stable' state=present
